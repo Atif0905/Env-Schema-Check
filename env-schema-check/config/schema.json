@@ -1,0 +1,5 @@
+{
+    "REQUIRED_KEYS": ["API_KEY", "DB_HOST", "DB_PORT"],
+    "OPTIONAL_KEYS": ["DEBUG"]
+  }
+  

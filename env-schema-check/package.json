@@ -1,0 +1,26 @@
+{
+  "name": "env-schema-check",
+  "version": "1.0.3",
+  "description": "Validate your .env file against a defined schema",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "env-schema-check": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js"
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    "schema",
+    "cli",
+    "validation"
+  ],
+  "author": "Atif",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0"
+  }
+}
